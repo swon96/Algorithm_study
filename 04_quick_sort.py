@@ -3,6 +3,7 @@ def quickSort(arr):
         return arr
     else:
         pivot = arr[0]
+        # 일단, pivot은 배열의 가장 처음 원소로 지정
         lower. larger = []
         for i in arr[1:]:
             if i < pivot:
